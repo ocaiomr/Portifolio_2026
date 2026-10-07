@@ -49,7 +49,7 @@ img {
   padding: 0 28px;
 }
 
-/* NAV */
+/* nav bar */
 header {
   position: sticky;
   top: 0;
@@ -118,7 +118,7 @@ textarea:focus-visible {
   outline-offset: 2px
 }
 
-/* HERO */
+/* hero */
 .hero {
   padding: 64px 0 40px
 }
@@ -163,7 +163,7 @@ textarea:focus-visible {
   opacity: .5
 }
 
-/* SECTIONS */
+/* secs */
 section {
   padding: 64px 0
 }
@@ -185,7 +185,7 @@ section {
   transform: translateY(0)
 }
 
-/* SOBRE */
+/* sobre */
 .sect-title {
   font-family: "Inter", sans-serif;
   font-size: 60px;
@@ -234,7 +234,7 @@ section {
   opacity: .8
 }
 
-/* PROJETOS */
+/* projetos */
 .proj-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -263,7 +263,7 @@ section {
   opacity: .9
 }
 
-/* REDES / CONTATO */
+/* redes e contato */
 .social-row,
 .contact-row {
   display: flex;
@@ -290,7 +290,7 @@ section {
   flex-shrink: 0
 }
 
-/* FORM */
+/* form */
 .form-box {
   margin-top: 32px;
   max-width: 480px
@@ -352,7 +352,7 @@ section {
   min-height: 1.2em
 }
 
-/* FOOTER */
+/* footer */
 footer {
   background: var(--ink);
   color: var(--bg);
