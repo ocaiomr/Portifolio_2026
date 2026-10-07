@@ -1,4 +1,4 @@
-// Theme toggle
+//tema escuro/claro
 const root = document.documentElement;
 const toggle = document.getElementById('themeToggle');
 const saved = (() => { try { return localStorage.getItem('theme'); } catch(e) { return null; } })();
@@ -9,7 +9,7 @@ toggle.addEventListener('click', () => {
   try { localStorage.setItem('theme', isDark ? 'light' : 'dark'); } catch(e) {}
 });
 
-// Scroll reveal
+//scroll
 const revealEls = document.querySelectorAll('.reveal');
 const io = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -21,7 +21,7 @@ const io = new IntersectionObserver((entries) => {
 }, { threshold: 0.15 });
 revealEls.forEach(el => io.observe(el));
 
-// Contact form (demo only, no backend)
+//contato
 const form = document.getElementById('contactForm');
 const msg = document.getElementById('formMsg');
 form.addEventListener('submit', (e) => {
@@ -30,6 +30,7 @@ form.addEventListener('submit', (e) => {
   form.reset();
 });
 
+//mascara form
 function mascara_telefone()
 {
     var tel_formatado = document.getElementById("tel").value
